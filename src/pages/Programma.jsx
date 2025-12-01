@@ -4,12 +4,37 @@ import React from 'react';
 const Programma = () => {
     return (
         <div className="container">
-            <h1 className="section-title">Onderzoeken, maken en leren in sprints</h1>
+            <h2 className="section-title">Wat je gaat doen</h2>
+            <img
+                src="/programma_intro.jpg"
+                alt="Student werkt aan AI chatbot"
+                style={{
+                    float: 'right',
+                    marginLeft: '30px',
+                    marginBottom: '20px',
+                    maxWidth: '400px',
+                    borderRadius: '8px',
+                    boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
+                }}
+            />
             <p style={{ marginBottom: '20px' }}>
-                De minor is opgebouwd uit periodes van twee weken (sprints), waarin je werkt aan je opdracht en diverse producten maakt, zoals prototypes, applicaties, opnames, tekeningen, websites, documenten, resultaten, etc.. De eerste periode ga je onderzoeken wat de impact van AI is op je beroep. De tweede periode ga je zelf een innovatieve oplossing maken die impact heeft voor je beroep en opdrachtgever.
+                Gedurende deze minor ga je werken aan een eigen AI vraagstuk. Gedurende de eerste 10 weken ga je onderzoeken wat de impact is van AI op jouw toekomstige beroep. Hoe gaat AI het beroep veranderen en welke AI oplossingen zijn daarvoor nodig. Natuurlijk ontdek en gebruik je gedurende dit onderzoek diverse AI tools, waardoor je digitale vaardigheden al een grote sprong maken. De volgende 10 weken ga je een eigen AI oplossing bedenken, maken en onderzoeken wat er nodig is om deze oplossing succesvol in de praktijk te brengen. Wellicht maak je zelfs een eerste AI oplossing die jou vakgebied compleet verandert en transformeert. Voorbeelden zijn er al genoeg, zoals:
             </p>
+            <ul style={{ listStyleType: 'disc', paddingLeft: '20px', marginBottom: '20px', lineHeight: '1.6' }}>
+                <li>Adaptieve leerplatformen in het onderwijs</li>
+                <li>Contentcreatie in online marketing</li>
+                <li>Voorspellende rechtspraak in recht</li>
+                <li>Slimme oplossingen voor stroomgebruik bij huishoudens</li>
+                <li>Autonome voertuigen in transport</li>
+                <li>Fraudedetectie bij banken en verzekeraars</li>
+                <li>Diagnoses in de gezondheidszorg</li>
+            </ul>
 
             {/* Figure 1: Sprint Process */}
+            <h1>Onderzoeken, maken en leren in sprints</h1>
+            <p style={{ marginBottom: '30px' }}>
+                Je gaat werken in sprint van 2 weken. Zo werk je gedurende de minor in 8 sprint naar een eindproduct.
+            </p>
             <div style={{ marginBottom: '30px', textAlign: 'center' }}>
                 <img
                     src="/sprint_proces.png"
@@ -73,14 +98,14 @@ const Programma = () => {
             </div>
 
             <section style={{ marginBottom: '30px' }}>
-                <h2 style={{ color: 'var(--hu-red)', marginBottom: '15px' }}>Zelfevaluatie</h2>
+                <h2 style={{ color: 'var(--hu-blue)', marginBottom: '15px' }}>Zelfevaluatie</h2>
                 <p>
                     In de zelfevaluatie geef je per leeruitkomst geef aan wat je hebt gemaakt en licht je dat toe met concrete producten die de leeruitkomst ondersteunen. Ook geef je aan of je vindt dat je voldoende hebt gepresteerd op deze leeruitkomst.
                 </p>
             </section>
 
             <section style={{ marginBottom: '30px' }}>
-                <h2 style={{ color: 'var(--hu-red)', marginBottom: '15px' }}>Show & Tell</h2>
+                <h2 style={{ color: 'var(--hu-blue)', marginBottom: '15px' }}>Show & Tell</h2>
                 <p>
                     Tijdens het Show & Tell moment laat je zien wat je hebt gemaakt en vertel je hoe je dit hebt gedaan en wat je ervan hebt geleerd. Dit doe je altijd samen met je coach en een aantal medestudenten.
                     Van de coach en je medestudenten krijg je feedback. Deze feedback verwerkt een andere student, zodat je kunt concentreren op de feedback die je krijgt.
@@ -90,7 +115,7 @@ const Programma = () => {
             <div style={{ clear: 'both' }}></div>
 
             <section style={{ marginBottom: '30px' }}>
-                <h2 style={{ color: 'var(--hu-red)', marginBottom: '15px' }}>Beoordeling sprint</h2>
+                <h2 style={{ color: 'var(--hu-blue)', marginBottom: '15px' }}>Beoordeling sprint</h2>
                 <p>
                     Tijdens het Show & Tell moment beoordeelt de coach direct je zelfevaluatie aan de hand van wat je laat zien en vertelt. De coach geeft je dan ook direct een beoordeling van de leeruitkomsten die je hebt laten zien in deze sprint (voldoende of onvoldoende). Op basis van alle feedback die je hebt gekregen maak je vervolgens een eigen reflectie in wat goed ging en je de volgende keer beter wilt doen. Dit is de laatste activiteit van je sprint.
                 </p>

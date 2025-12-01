@@ -18,7 +18,7 @@ const Leeruitkomsten = () => {
                 />
 
                 <h1 className="section-title">Leeruitkomsten</h1>
-                <p style={{ marginBottom: '30px' }}>De minor kent 5 leeruitkomsten:</p>
+                <p style={{ marginBottom: '30px' }}>De minor kent 5 leeruitkomsten. Leeruikomst 5 moet je altijd iedere sprint laten zien en de andere vier leeruitkomsten zijn afhankelijk van wat je die sprint hebt gepland om uit te voeren.</p>
 
                 <div style={{ marginBottom: '20px' }}>
                     <h3 style={{ color: 'var(--hu-blue)', marginBottom: '10px' }}>LU 1: AI-impact op de toekomstige beroepspraktijk analyseren en evalueren</h3>
