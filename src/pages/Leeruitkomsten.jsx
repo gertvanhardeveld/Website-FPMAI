@@ -5,7 +5,7 @@ const Leeruitkomsten = () => {
         <div className="container">
             <div style={{ marginBottom: '60px' }}>
                 <img
-                    src="/leeruitkomsten_visual.jpg"
+                    src={`${import.meta.env.BASE_URL}leeruitkomsten_visual.jpg`}
                     alt="Leeruitkomsten Visualisatie"
                     style={{
                         float: 'right',

@@ -6,7 +6,7 @@ const Home = () => {
     <div>
       <div style={{ position: 'relative' }}>
         <img
-          src="/home-hero.jpg"
+          src={`${import.meta.env.BASE_URL}home-hero.jpg`}
           alt="Futureproof met AI Team"
           style={{
             width: '100%',
@@ -30,7 +30,7 @@ const Home = () => {
           <a href="https://husite.nl/minors/inschrijven/" target="_blank" rel="noopener noreferrer" className="btn" style={{ backgroundColor: 'var(--hu-blue)', color: 'white', fontSize: '1.1rem', padding: '15px 30px', width: '220px', textAlign: 'center' }}>
             Direct Inschrijven
           </a>
-          <a href="/Future-proof met AI! v1.8.pdf" target="_blank" rel="noopener noreferrer" className="btn" style={{ backgroundColor: 'var(--hu-red)', color: 'white', fontSize: '1.1rem', padding: '15px 30px', width: '220px', textAlign: 'center' }}>
+          <a href={`${import.meta.env.BASE_URL}Future-proof met AI! v1.8.pdf`} target="_blank" rel="noopener noreferrer" className="btn" style={{ backgroundColor: 'var(--hu-red)', color: 'white', fontSize: '1.1rem', padding: '15px 30px', width: '220px', textAlign: 'center' }}>
             Brochure
           </a>
         </div>
@@ -48,7 +48,7 @@ const Home = () => {
         <p style={{ fontSize: '1.2rem', maxWidth: '1000px', lineHeight: '1.6', color: '#333', margin: '0 auto 30px auto' }}>
           Even een snelle preview van de minor.
         </p>
-        <a href="/Toekomstbestendig_met_AI.mp4" target="_blank" rel="noopener noreferrer" className="btn" style={{ backgroundColor: 'var(--hu-blue)', color: 'white', fontSize: '1.1rem', padding: '15px 30px' }}>
+        <a href={`${import.meta.env.BASE_URL}Toekomstbestendig_met_AI.mp4`} target="_blank" rel="noopener noreferrer" className="btn" style={{ backgroundColor: 'var(--hu-blue)', color: 'white', fontSize: '1.1rem', padding: '15px 30px' }}>
           Futureproof met AI
         </a>
       </div>

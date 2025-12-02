@@ -59,7 +59,7 @@ const Header = () => {
                 {/* Logo Section */}
                 <div style={{ display: 'flex', alignItems: 'center', marginRight: '40px' }}>
                     <Link to="/" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
-                        <img src="/hu-logo.png" alt="Hogeschool Utrecht" style={{ height: '50px' }} />
+                        <img src={`${import.meta.env.BASE_URL}hu-logo.png`} alt="Hogeschool Utrecht" style={{ height: '50px' }} />
                     </Link>
                 </div>
 

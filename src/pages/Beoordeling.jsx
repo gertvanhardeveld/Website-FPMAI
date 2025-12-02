@@ -8,7 +8,7 @@ const Beoordeling = () => {
                 <h1 style={{ marginBottom: '20px', color: 'var(--hu-blue)' }}>Eindassessment</h1>
 
                 <img
-                    src="/assessment_visual.jpg"
+                    src={`${import.meta.env.BASE_URL}assessment_visual.jpg`}
                     alt="Assessment Visualisatie"
                     style={{
                         float: 'right',

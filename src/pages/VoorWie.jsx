@@ -6,7 +6,7 @@ const VoorWie = () => {
             <h1 style={{ color: 'var(--hu-blue)', marginBottom: '20px' }}>Voor wie</h1>
 
             <img
-                src="/voor-wie-visual.jpg"
+                src={`${import.meta.env.BASE_URL}voor-wie-visual.jpg`}
                 alt="Studenten werken samen aan AI project"
                 style={{
                     float: 'right',

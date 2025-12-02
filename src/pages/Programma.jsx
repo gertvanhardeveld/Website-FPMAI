@@ -6,7 +6,7 @@ const Programma = () => {
         <div className="container">
             <h1 className="section-title">Wat je gaat doen</h1>
             <img
-                src="/programma_intro.jpg"
+                src={`${import.meta.env.BASE_URL}programma_intro.jpg`}
                 alt="Student werkt aan AI chatbot"
                 style={{
                     float: 'right',
@@ -37,7 +37,7 @@ const Programma = () => {
             </p>
             <div style={{ marginBottom: '30px', textAlign: 'center' }}>
                 <img
-                    src="/sprint_proces.png"
+                    src={`${import.meta.env.BASE_URL}sprint_proces.png`}
                     alt="Sprint proces"
                     style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }}
                 />
@@ -75,7 +75,7 @@ const Programma = () => {
 
             {/* Research Story Image Floating Right - Placed before text blocks to allow wrapping */}
             <img
-                src="/research_story.png"
+                src={`${import.meta.env.BASE_URL}research_story.png`}
                 alt="Research Story"
                 style={{
                     float: 'right',

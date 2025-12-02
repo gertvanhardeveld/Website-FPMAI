@@ -8,7 +8,7 @@ const Praktisch = () => {
             {/* Rooster Section - Single Column with Floating Image */}
             <section style={{ marginBottom: '60px' }}>
                 <img
-                    src="/rooster_visual_new.jpg"
+                    src={`${import.meta.env.BASE_URL}rooster_visual_new.jpg`}
                     alt="Rooster Visualisatie"
                     style={{
                         float: 'right',

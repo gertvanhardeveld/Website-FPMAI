@@ -11,7 +11,7 @@ const Team = () => {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '30px' }}>
                 <div className="card" style={{ textAlign: 'center' }}>
                     <div style={{ width: '120px', height: '120px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 15px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#888' }}>
-                        <img src="/gert-van-hardeveld.jpg" alt="Gert van Hardeveld" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                        <img src={`${import.meta.env.BASE_URL}gert-van-hardeveld.jpg`} alt="Gert van Hardeveld" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                     </div>
                     <h3 style={{ color: 'var(--hu-blue)', marginBottom: '5px' }}>Gert van Hardeveld</h3>
                     <p style={{ fontWeight: 'bold', marginBottom: '10px' }}>Coach en Minor Coördinator</p>
@@ -24,7 +24,7 @@ const Team = () => {
 
                 <div className="card" style={{ textAlign: 'center' }}>
                     <div style={{ width: '120px', height: '120px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 15px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#888' }}>
-                        <img src="/jan-van-rouwendal.jpg" alt="Jan van Rouwendal" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                        <img src={`${import.meta.env.BASE_URL}jan-van-rouwendal.jpg`} alt="Jan van Rouwendal" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                     </div>
                     <h3 style={{ color: 'var(--hu-blue)', marginBottom: '5px' }}>Jan van Rouwendal</h3>
                     <p style={{ fontWeight: 'bold', marginBottom: '10px' }}>Coach</p>
@@ -37,7 +37,7 @@ const Team = () => {
 
                 <div className="card" style={{ textAlign: 'center' }}>
                     <div style={{ width: '120px', height: '120px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 15px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#888' }}>
-                        <img src="/matthijs-brouwer.jpg" alt="Matthijs Brouwer" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                        <img src={`${import.meta.env.BASE_URL}matthijs-brouwer.jpg`} alt="Matthijs Brouwer" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                     </div>
                     <h3 style={{ marginBottom: '5px' }}>Matthijs Brouwer</h3>
                     <p style={{ fontWeight: 'bold', marginBottom: '10px' }}>Coach</p>
@@ -50,7 +50,7 @@ const Team = () => {
 
                 <div className="card" style={{ textAlign: 'center' }}>
                     <div style={{ width: '120px', height: '120px', borderRadius: '50%', overflow: 'hidden', margin: '0 auto 15px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#888' }}>
-                        <img src="/niels-theunissen.jpg" alt="Niels Theunissen" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                        <img src={`${import.meta.env.BASE_URL}niels-theunissen.jpg`} alt="Niels Theunissen" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                     </div>
                     <h3 style={{ marginBottom: '5px' }}>Niels Theunissen</h3>
                     <p style={{ fontWeight: 'bold', marginBottom: '10px' }}>Coach</p>
