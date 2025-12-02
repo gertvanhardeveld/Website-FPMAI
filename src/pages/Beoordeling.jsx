@@ -5,7 +5,7 @@ const Beoordeling = () => {
         <div className="container">
             {/* Eindassessment Section */}
             <div style={{ marginBottom: '40px' }}>
-                <h2 style={{ marginBottom: '20px', color: 'var(--hu-blue)' }}>Eindassessment</h2>
+                <h1 style={{ marginBottom: '20px', color: 'var(--hu-blue)' }}>Eindassessment</h1>
 
                 <img
                     src="/assessment_visual.jpg"

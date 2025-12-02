@@ -20,7 +20,7 @@ const Praktisch = () => {
                     }}
                 />
 
-                <h2 style={{ marginBottom: '20px', color: 'var(--hu-blue)' }}>Rooster</h2>
+                <h1 style={{ marginBottom: '20px', color: 'var(--hu-blue)' }}>Rooster</h1>
                 <p style={{ marginBottom: '20px' }}>
                     De minor is fulltime. Op maandag en woensdag zijn er les ingeroosterd.
                 </p>
