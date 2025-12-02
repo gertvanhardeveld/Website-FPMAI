@@ -3,7 +3,7 @@ import React from 'react';
 const Team = () => {
     return (
         <div className="container">
-            <h1 className="section-title">Het Team</h1>
+            <h1 className="section-title">Team</h1>
             <p style={{ marginBottom: '30px' }}>
                 Ons team bestaat uit ervaren docenten en experts uit het werkveld.
             </p>

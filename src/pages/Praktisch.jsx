@@ -3,8 +3,7 @@ import React from 'react';
 const Praktisch = () => {
     return (
         <div className="container">
-
-
+            <h1 className="section-title">Praktisch</h1>
             {/* Rooster Section - Single Column with Floating Image */}
             <section style={{ marginBottom: '60px' }}>
                 <img
@@ -19,8 +18,6 @@ const Praktisch = () => {
                         boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
                     }}
                 />
-
-                <h1 style={{ marginBottom: '20px', color: 'var(--hu-blue)' }}>Rooster</h1>
                 <p style={{ marginBottom: '20px' }}>
                     De minor is fulltime. Op maandag en woensdag zijn er les ingeroosterd.
                 </p>
@@ -28,7 +25,7 @@ const Praktisch = () => {
                 <div style={{ marginBottom: '20px' }}>
                     <h3 style={{ fontSize: '1.1rem', marginBottom: '10px' }}>Lesdagen</h3>
                     <p>
-                        Je bent altijd 2 dagen ingeroosterd op de HU om te werken en te leren. Op maandag middag zijn er altijd de inspiratie-sessies en gastsprekers ingeroosterd en kom je met alle studenten bij elkaar. Op de woensdag zijn de leerteamsessies en werk je in sprints. Afhankelijk van de indeling is je leerteam op de woensdagochtend of de woensdagmiddag.
+                        De lesdagen zijn maandag en woensdag. Op maandag middag zijn er altijd de inspiratie-sessies en gastsprekers ingeroosterd en kom je met alle studenten bij elkaar. Op de woensdag zijn de leerteamsessies en werk je in sprints. Afhankelijk van de indeling is je leerteam op de woensdagochtend of de woensdagmiddag.
                     </p>
                 </div>
 

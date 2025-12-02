@@ -4,7 +4,7 @@ import React from 'react';
 const Programma = () => {
     return (
         <div className="container">
-            <h1 className="section-title">Wat je gaat doen</h1>
+            <h1 className="section-title">Programma</h1>
             <img
                 src={`${import.meta.env.BASE_URL}programma_intro.jpg`}
                 alt="Student werkt aan AI chatbot"

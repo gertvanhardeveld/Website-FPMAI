@@ -3,9 +3,10 @@ import React from 'react';
 const Beoordeling = () => {
     return (
         <div className="container">
+            <h1 className="section-title">Beoordeling</h1>
             {/* Eindassessment Section */}
             <div style={{ marginBottom: '40px' }}>
-                <h1 style={{ marginBottom: '20px', color: 'var(--hu-blue)' }}>Eindassessment</h1>
+                <h1 style={{ marginBottom: '20px', color: 'var(--hu-blue)' }}>Assessment</h1>
 
                 <img
                     src={`${import.meta.env.BASE_URL}assessment_visual.jpg`}
