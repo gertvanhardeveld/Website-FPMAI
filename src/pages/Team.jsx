@@ -1,8 +1,14 @@
 import React from 'react';
 
+import { Helmet } from 'react-helmet-async';
+
 const Team = () => {
     return (
         <div className="container">
+            <Helmet>
+                <title>Team - Futureproof met AI!</title>
+                <meta name="description" content="Ontmoet de coaches en experts van de Minor AI: Gert van Hardeveld, Jan van Rouwendal, Matthijs Brouwer en Niels Theunissen." />
+            </Helmet>
             <h1 className="section-title">Team</h1>
             <p style={{ marginBottom: '30px' }}>
                 Ons team bestaat uit ervaren docenten en experts uit het werkveld.

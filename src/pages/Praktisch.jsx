@@ -1,8 +1,14 @@
 import React from 'react';
 
+import { Helmet } from 'react-helmet-async';
+
 const Praktisch = () => {
     return (
         <div className="container">
+            <Helmet>
+                <title>Praktisch - Futureproof met AI!</title>
+                <meta name="description" content="Praktische informatie over de Minor AI: lesdagen, locatie (Utrecht & Dotslash), belangrijke data en kosten." />
+            </Helmet>
             <h1 className="section-title">Praktisch</h1>
             {/* Rooster Section - Single Column with Floating Image */}
             <section style={{ marginBottom: '60px' }}>

@@ -1,7 +1,13 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
+
 const VoorWie = () => {
     return (
         <div className="container">
+            <Helmet>
+                <title>Voor wie - Futureproof met AI!</title>
+                <meta name="description" content="De Minor AI is voor iedere HBO-student die AI-vaardig wil worden. Geen voorkennis vereist. Ook geschikt als premaster voor HCAI en MDDD." />
+            </Helmet>
             <h1 className="section-title">Voor wie</h1>
             <img
                 src={`${import.meta.env.BASE_URL}voor-wie-visual.jpg`}

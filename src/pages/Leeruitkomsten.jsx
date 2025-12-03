@@ -1,8 +1,14 @@
 import React from 'react';
 
+import { Helmet } from 'react-helmet-async';
+
 const Leeruitkomsten = () => {
     return (
         <div className="container">
+            <Helmet>
+                <title>Leeruitkomsten - Futureproof met AI!</title>
+                <meta name="description" content="De 5 leeruitkomsten van de Minor AI: Impact analyseren, Oplossingen realiseren, Ethiek, AI Tools gebruiken en Zelfsturend werken." />
+            </Helmet>
             <div style={{ marginBottom: '60px' }}>
                 <img
                     src={`${import.meta.env.BASE_URL}leeruitkomsten_visual.jpg`}

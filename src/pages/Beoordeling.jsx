@@ -1,8 +1,14 @@
 import React from 'react';
 
+import { Helmet } from 'react-helmet-async';
+
 const Beoordeling = () => {
     return (
         <div className="container">
+            <Helmet>
+                <title>Beoordeling - Futureproof met AI!</title>
+                <meta name="description" content="Informatie over het assessment, beoordelingscriteria (Op Niveau / Boven Niveau) en herkansingen van de Minor AI." />
+            </Helmet>
             <h1 className="section-title">Beoordeling</h1>
             {/* Eindassessment Section */}
             <div style={{ marginBottom: '40px' }}>

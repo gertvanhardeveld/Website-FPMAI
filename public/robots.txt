@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gertvanhardeveld.github.io/Website-FPMAI/sitemap.xml

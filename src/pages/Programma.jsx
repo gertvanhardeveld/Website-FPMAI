@@ -1,9 +1,15 @@
 import React from 'react';
 
+import { Helmet } from 'react-helmet-async';
+
 // Programma component
 const Programma = () => {
     return (
         <div className="container">
+            <Helmet>
+                <title>Programma - Futureproof met AI!</title>
+                <meta name="description" content="Ontdek het programma van de Minor AI. Werk in sprints aan Research Stories, User Stories en Learning Stories. Leer bouwen met AI en vibecoding." />
+            </Helmet>
             <h1 className="section-title">Programma</h1>
             <img
                 src={`${import.meta.env.BASE_URL}programma_intro.jpg`}

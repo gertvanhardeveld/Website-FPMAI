@@ -1,9 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import { Helmet } from 'react-helmet-async';
+
 const Home = () => {
   return (
     <div>
+      <Helmet>
+        <title>Futureproof met AI! - Minor Hogeschool Utrecht</title>
+        <meta name="description" content="Word toekomstbestendig met de Minor AI. Ontwikkel essentiële AI-kennis en vaardigheden, leer vibecoding, chatbots bouwen en bereid je voor op de toekomst." />
+      </Helmet>
       <div style={{ position: 'relative' }}>
         <img
           src={`${import.meta.env.BASE_URL}home-hero.jpg`}
