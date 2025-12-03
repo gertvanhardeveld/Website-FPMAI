@@ -51,9 +51,12 @@ const Home = () => {
         <p style={{ fontSize: '1.2rem', maxWidth: '1000px', lineHeight: '1.6', color: '#333', margin: '0 auto 30px auto' }}>
           Even een snelle preview van de minor.
         </p>
-        <a href={`${import.meta.env.BASE_URL}Toekomstbestendig_met_AI.mp4`} target="_blank" rel="noopener noreferrer" className="btn" style={{ backgroundColor: 'var(--hu-blue)', color: 'white', fontSize: '1.1rem', padding: '15px 30px' }}>
-          Futureproof met AI
-        </a>
+        <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+          <video controls style={{ width: '100%', borderRadius: '8px', boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }}>
+            <source src={`${import.meta.env.BASE_URL}Toekomstbestendig_met_AI.mp4`} type="video/mp4" />
+            Je browser ondersteunt de video tag niet.
+          </video>
+        </div>
       </div>
     </div>
   );
