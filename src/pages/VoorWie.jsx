@@ -31,9 +31,9 @@ const VoorWie = () => {
                 De minor is bedoeld voor alle HBO studenten die hun AI- en digitale vaardigheden willen verbeteren. Of je nu in de gezondheidszorg, techniek, creatieve sector, onderwijs, economie of een ander vakgebied studeert: deze minor helpt jou beter voorbereid de arbeidsmarkt op te gaan.
             </p>
 
-            <h2 style={{ color: 'var(--hu-blue)', marginBottom: '15px', marginTop: '30px' }}>Als premaster voor HCAI en MDDD</h2>
+            <h2 style={{ color: 'var(--hu-blue)', marginBottom: '15px', marginTop: '30px' }}>Als premaster voor HCAI en MDDB</h2>
             <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#333' }}>
-                Ben je van plan na je bachelor nog een master in AI te gaan volgen dan is deze minor de perfecte voorbereiding daarop. Veel van de AI masters vereisen al technische kennis op het terrein van programmeren en/of wiskundige kennis op data gebied. Als je kiest voor deze minor ga je aan leervragen werken die je voorbereiden voor de twee HU masters: HCAI en MDDD. Beide masters kennen een ingangstoets en tijdens deze minor kun je deze toets al maken en zo zorgen dat je voldoet aan de ingangseisen van deze AI masters. Onze eigen ICT opleiding verzorgt de master Human Centered AI (HCAI) en zo kom je ook al je toekomstig vakdocenten en coaches tegen.
+                Ben je van plan na je bachelor nog een master in AI te gaan volgen dan is deze minor een perfecte voorbereiding daarop. Veel van de AI-masters vereisen al technische kennis op het terrein van programmeren en/of wiskundige kennis over data. Bij deze minor ga je aan leervragen werken die je voorbereiden voor de twee HU AI-masters: HCAI en MDDB. Beide masters kennen een ingangstoets en door tijdens deze minor de toets al te maken zorg je ervoor dat je voldoet aan de ingangseisen van deze AI-masters. Onze eigen ICT opleiding verzorgt de master Human Centered AI (HCAI) en zo kom je ook al je toekomstig vakdocenten en coaches tegen.
             </p>
         </div >
     );

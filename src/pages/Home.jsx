@@ -36,7 +36,7 @@ const Home = () => {
           <a href="https://husite.nl/minors/inschrijven/" target="_blank" rel="noopener noreferrer" className="btn" style={{ backgroundColor: 'var(--hu-blue)', color: 'white', fontSize: '1.1rem', padding: '15px 30px', width: '220px', textAlign: 'center' }}>
             Direct Inschrijven
           </a>
-          <a href={`${import.meta.env.BASE_URL}Future-proof met AI! v1.8.pdf`} target="_blank" rel="noopener noreferrer" className="btn" style={{ backgroundColor: 'var(--hu-red)', color: 'white', fontSize: '1.1rem', padding: '15px 30px', width: '220px', textAlign: 'center' }}>
+          <a href={`${import.meta.env.BASE_URL}Future-proof met AI! v1.9.pdf`} target="_blank" rel="noopener noreferrer" className="btn" style={{ backgroundColor: 'var(--hu-red)', color: 'white', fontSize: '1.1rem', padding: '15px 30px', width: '220px', textAlign: 'center' }}>
             Brochure
           </a>
         </div>
