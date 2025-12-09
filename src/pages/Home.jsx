@@ -19,12 +19,28 @@ const Home = () => {
             height: 'auto',
             display: 'block',
             maxHeight: '600px',
-            objectFit: 'cover'
+            objectFit: 'cover',
+            objectPosition: 'top'
           }}
         />
         <div style={{
           position: 'absolute',
-          top: '65%',
+          top: '10%',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          color: 'white',
+          fontSize: '3rem',
+          fontWeight: 'bold',
+          textShadow: '0 2px 8px rgba(0,0,0,0.8)',
+          textAlign: 'center',
+          width: '100%',
+          zIndex: 10
+        }}>
+          Futureproof met AI!
+        </div>
+        <div style={{
+          position: 'absolute',
+          top: '85%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
           display: 'flex',
