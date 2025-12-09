@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Home.css';
 
 import { Helmet } from 'react-helmet-async';
 
@@ -10,49 +11,20 @@ const Home = () => {
         <title>Futureproof met AI! - Minor Hogeschool Utrecht</title>
         <meta name="description" content="Word toekomstbestendig met de Minor: Futureproof met AI!. Ontwikkel essentiële AI-kennis en vaardigheden, leer vibecoding, chatbots bouwen en bereid je voor op de toekomst." />
       </Helmet>
-      <div style={{ position: 'relative' }}>
+      <div className="home-hero-container">
         <img
           src={`${import.meta.env.BASE_URL}home-hero.jpg`}
           alt="Futureproof met AI Team"
-          style={{
-            width: '100%',
-            height: 'auto',
-            display: 'block',
-            maxHeight: '600px',
-            objectFit: 'cover',
-            objectPosition: 'top'
-          }}
+          className="home-hero-image"
         />
-        <div style={{
-          position: 'absolute',
-          top: '10%',
-          left: '50%',
-          transform: 'translateX(-50%)',
-          color: 'white',
-          fontSize: '3rem',
-          fontWeight: 'bold',
-          textShadow: '0 2px 8px rgba(0,0,0,0.8)',
-          textAlign: 'center',
-          width: '100%',
-          zIndex: 10
-        }}>
+        <div className="home-hero-title">
           Futureproof met AI!
         </div>
-        <div style={{
-          position: 'absolute',
-          top: '85%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          display: 'flex',
-          gap: '20px',
-          zIndex: 10,
-          width: '100%',
-          justifyContent: 'center'
-        }}>
-          <a href="https://husite.nl/minors/inschrijven/" target="_blank" rel="noopener noreferrer" className="btn" style={{ backgroundColor: 'var(--hu-blue)', color: 'white', fontSize: '1.1rem', padding: '15px 30px', width: '220px', textAlign: 'center' }}>
+        <div className="home-hero-buttons">
+          <a href="https://husite.nl/minors/inschrijven/" target="_blank" rel="noopener noreferrer" className="btn home-hero-btn home-hero-btn-blue">
             Direct Inschrijven
           </a>
-          <a href={`${import.meta.env.BASE_URL}Future-proof met AI! v1.9.pdf`} target="_blank" rel="noopener noreferrer" className="btn" style={{ backgroundColor: 'var(--hu-red)', color: 'white', fontSize: '1.1rem', padding: '15px 30px', width: '220px', textAlign: 'center' }}>
+          <a href={`${import.meta.env.BASE_URL}Future-proof met AI! v1.9.pdf`} target="_blank" rel="noopener noreferrer" className="btn home-hero-btn home-hero-btn-red">
             Brochure
           </a>
         </div>

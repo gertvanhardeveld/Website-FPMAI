@@ -1,0 +1,87 @@
+.home-hero-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.home-hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 600px;
+  object-fit: cover;
+  object-position: top;
+  /* Min-height ensures the image is tall enough on mobile to fit the text and buttons */
+  min-height: 500px;
+}
+
+.home-hero-title {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  width: 90%; /* Prevent text touching edges */
+  z-index: 10;
+}
+
+.home-hero-buttons {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 20px;
+  z-index: 10;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home-hero-btn {
+  font-size: 1.1rem;
+  padding: 15px 30px;
+  width: 220px;
+  text-align: center;
+}
+
+/* Blue button specific override if needed, though simpler to use utility classes in JSX + this class for layout */
+.home-hero-btn-blue {
+  background-color: var(--hu-blue);
+}
+
+.home-hero-btn-red {
+  background-color: var(--hu-red);
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .home-hero-image {
+    height: 600px; /* Fixed height on mobile to ensure coverage */
+    object-position: center top;
+  }
+
+  .home-hero-title {
+    font-size: 2rem;
+    top: 50px; /* Fixed spacing from top */
+  }
+
+  .home-hero-buttons {
+    top: auto; /* Unset top */
+    bottom: 30px; /* Position from bottom */
+    transform: translateX(-50%); /* remove vertical adjust from translate(-50%, -50%) */
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .home-hero-btn {
+    width: 90%;
+    max-width: 280px;
+    padding: 12px 20px;
+  }
+}
