@@ -34,10 +34,40 @@ const Beoordeling = () => {
                 <h3 style={{ fontSize: '1.1rem', marginBottom: '10px', color: 'var(--hu-red)' }}>Voorwaarden voor een op niveau beoordeling</h3>
                 <ol style={{ paddingLeft: '20px', marginBottom: '20px' }}>
                     <li style={{ marginBottom: '5px' }}>Je moet iedere sprint minimaal 3 leeruitkomsten laten evalueren. Met 8 sprints kun je dan minimaal 24 keer een leeruitkomst laten beoordelen</li>
-                    <li style={{ marginBottom: '5px' }}>De leeruitkomst 5 is altijd verplicht en wordt iedere sprint beoordeeld. Minimaal 4 keer moet deze leeruitkomst van het niveau voldoende zijn</li>
-                    <li style={{ marginBottom: '5px' }}>De andere 4 leeruitkomsten moeten in ieder geval 4 keer worden beoordeeld. Iedere leeruitkomst moet minimaal 2 keer van voldoende niveau zijn</li>
                     <li style={{ marginBottom: '5px' }}>Je mag maximaal 1 sprint missen (bijvoorbeeld door ziekte of vakantie). In dat geval moet je wel werken in de reparatiesprint aan het einde van de minor en is je assessment later.</li>
+                    <li style={{ marginBottom: '5px' }}>Iedere leeruitkomst moet je minimaal een aantal maal op voldoende niveau laten zien.</li>
                 </ol>
+
+                <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '20px', border: '1px solid black' }}>
+                    <thead>
+                        <tr style={{ backgroundColor: 'var(--hu-blue)', color: 'white' }}>
+                            <th style={{ padding: '8px', border: '1px solid black', textAlign: 'left' }}>Leeruitkomst</th>
+                            <th style={{ padding: '8px', border: '1px solid black', textAlign: 'center' }}>Minimaal x voldoende</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style={{ padding: '8px', border: '1px solid black' }}>LU1: AI Impact</td>
+                            <td style={{ padding: '8px', border: '1px solid black', textAlign: 'center' }}>2</td>
+                        </tr>
+                        <tr>
+                            <td style={{ padding: '8px', border: '1px solid black' }}>LU2: AI Praktijkoplossing</td>
+                            <td style={{ padding: '8px', border: '1px solid black', textAlign: 'center' }}>4</td>
+                        </tr>
+                        <tr>
+                            <td style={{ padding: '8px', border: '1px solid black' }}>LU3: AI Ethiek en regelgeving</td>
+                            <td style={{ padding: '8px', border: '1px solid black', textAlign: 'center' }}>2</td>
+                        </tr>
+                        <tr>
+                            <td style={{ padding: '8px', border: '1px solid black' }}>LU4: AI Tools en technieken</td>
+                            <td style={{ padding: '8px', border: '1px solid black', textAlign: 'center' }}>4</td>
+                        </tr>
+                        <tr>
+                            <td style={{ padding: '8px', border: '1px solid black' }}>LU5: Zelfstandig en zelfsturend werken</td>
+                            <td style={{ padding: '8px', border: '1px solid black', textAlign: 'center' }}>6</td>
+                        </tr>
+                    </tbody>
+                </table>
 
                 <h3 style={{ fontSize: '1.1rem', marginBottom: '10px', color: 'var(--hu-red)' }}>Voorwaarden voor boven niveau beoordeling</h3>
                 <ol style={{ paddingLeft: '20px', marginBottom: '20px' }}>
