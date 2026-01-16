@@ -6,7 +6,7 @@ import Programma from './pages/Programma';
 import Beoordeling from './pages/Beoordeling';
 import Praktisch from './pages/Praktisch';
 import Leeruitkomsten from './pages/Leeruitkomsten';
-import Producten from './pages/Producten';
+import Showcases from './pages/Showcases';
 import Team from './pages/Team';
 import VoorWie from './pages/VoorWie';
 
@@ -21,7 +21,7 @@ function App() {
           <Route path="/beoordeling" element={<Beoordeling />} />
           <Route path="/praktisch" element={<Praktisch />} />
           <Route path="/leeruitkomsten" element={<Leeruitkomsten />} />
-          <Route path="/producten" element={<Producten />} />
+          <Route path="/showcases" element={<Showcases />} />
           <Route path="/team" element={<Team />} />
         </Routes>
       </Layout>

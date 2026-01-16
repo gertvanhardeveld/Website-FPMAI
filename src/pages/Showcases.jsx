@@ -2,14 +2,14 @@ import React from 'react';
 
 import { Helmet } from 'react-helmet-async';
 
-const Producten = () => {
+const Showcases = () => {
     return (
         <div className="container">
             <Helmet>
-                <title>Producten - Futureproof met AI!</title>
+                <title>Showcases - Futureproof met AI!</title>
                 <meta name="description" content="Bekijk voorbeelden van AI-projecten die studenten hebben gerealiseerd, zoals Smart Waste Management en Healthcare Chatbots." />
             </Helmet>
-            <h1 className="section-title">Producten</h1>
+            <h1 className="section-title">Showcases</h1>
             <p style={{ marginBottom: '30px' }}>
                 Bekijk hier enkele voorbeelden van projecten die studenten in de afgelopen edities hebben gerealiseerd (wordt binnenkort geüpdated).
             </p>
@@ -51,4 +51,4 @@ const Producten = () => {
     );
 };
 
-export default Producten;
+export default Showcases;

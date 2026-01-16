@@ -20,9 +20,9 @@ export const searchIndex = [
         content: "Rooster, lesdagen, locatie, kosten. Literatuur, boekenlijst. Aanwezigheid, fulltime minor."
     },
     {
-        title: "Producten",
-        path: "/producten",
-        content: "Voorbeelden van producten, prototypes, applicaties, websites. Wat maken studenten?"
+        title: "Showcases",
+        path: "/showcases",
+        content: "Voorbeelden van showcases, projecten, prototypes, applicaties, websites. Wat maken studenten?"
     },
     {
         title: "Team",
