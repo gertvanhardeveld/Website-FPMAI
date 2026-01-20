@@ -16,34 +16,44 @@ const Showcases = () => {
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px' }}>
                 <div className="card">
-                    <div style={{ height: '200px', backgroundColor: '#eee', marginBottom: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#888' }}>
-                        Afbeelding Project 1
-                    </div>
-                    <h2 style={{ marginBottom: '10px' }}>Smart Waste Management</h2>
+                    <iframe
+                        src="https://stream.hu.nl/players/3l4TCxch-wtzy1Zaa.html"
+                        style={{ width: '100%', height: '200px', marginBottom: '15px', border: 'none' }}
+                        allow="fullscreen; picture-in-picture"
+                        allowFullScreen
+                        title="Showcase Video"
+                    ></iframe>
+                    <h2 style={{ marginBottom: '10px' }}>Fieke van Gemert</h2>
                     <p>
-                        Een AI-systeem dat afval herkent en automatisch sorteert om recycling te verbeteren.
-                        Ontwikkeld in samenwerking met de Gemeente Utrecht.
+                        Maken en opleveren van drie websites in de laatste sprint.
                     </p>
                 </div>
 
                 <div className="card">
-                    <div style={{ height: '200px', backgroundColor: '#eee', marginBottom: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#888' }}>
-                        Afbeelding Project 2
-                    </div>
-                    <h2 style={{ marginBottom: '10px' }}>Healthcare Chatbot</h2>
+                    <iframe
+                        src="https://stream.hu.nl/players/EP9P6HLu-wtzy1Zaa.html"
+                        style={{ width: '100%', height: '200px', marginBottom: '15px', border: 'none' }}
+                        allow="fullscreen; picture-in-picture"
+                        allowFullScreen
+                        title="Showcase Video 2"
+                    ></iframe>
+                    <h2 style={{ marginBottom: '10px' }}>Kate Baker</h2>
                     <p>
-                        Een intelligente chatbot die patiënten helpt bij het vinden van de juiste zorgverlener en eenvoudige medische vragen beantwoordt.
+                        Maken en opleveren van een website voor modellen.
                     </p>
                 </div>
 
                 <div className="card">
-                    <div style={{ height: '200px', backgroundColor: '#eee', marginBottom: '15px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#888' }}>
-                        Afbeelding Project 3
-                    </div>
-                    <h2 style={{ marginBottom: '10px' }}>Predictive Maintenance</h2>
+                    <iframe
+                        src="https://stream.hu.nl/players/2k933z9f-wtzy1Zaa.html"
+                        style={{ width: '100%', height: '200px', marginBottom: '15px', border: 'none' }}
+                        allow="fullscreen; picture-in-picture"
+                        allowFullScreen
+                        title="Showcase Video 3"
+                    ></iframe>
+                    <h2 style={{ marginBottom: '10px' }}>Flow van den Berg</h2>
                     <p>
-                        Een model dat voorspelt wanneer machines onderhoud nodig hebben, gebaseerd op sensordata.
-                        Toegepast bij een productiebedrijf in de regio.
+                        Maken en opleveren van een klantservice applicatie.
                     </p>
                 </div>
             </div>
