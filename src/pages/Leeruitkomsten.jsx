@@ -41,9 +41,16 @@ const Leeruitkomsten = () => {
                     <p>Je kunt zelfstandig de ethische vraagstukken en uitdagingen van AI in je vakgebied identificeren en aanbevelingen formuleren voor verantwoord AI-gebruik, rekening houdend met privacy, bias en transparantie.</p>
                 </div>
 
-                <div style={{ marginBottom: '20px' }}>
-                    <h3 style={{ color: 'var(--hu-blue)', marginBottom: '10px' }}>LU 4: AI Tools en technieken gebruiken</h3>
-                    <p>Je kunt zelfstandig verschillende AI-tools en platforms toepassen (zoals AI machine learning technieken, chatbots, agents, prompts, etc)) en deze gebruiken om specifieke taken binnen je vakgebied op te lossen.</p>
+                <div style={{ marginBottom: '20px', display: 'flex', flexWrap: 'wrap', gap: '30px', alignItems: 'flex-start' }}>
+                    <div style={{ flex: '1 1 300px' }}>
+                        <h3 style={{ color: 'var(--hu-blue)', marginBottom: '10px' }}>LU 4: AI Tools en technieken gebruiken</h3>
+                        <p>Je kunt zelfstandig verschillende AI-tools en platforms toepassen (zoals AI machine learning technieken, chatbots, agents, prompts, etc)) en deze gebruiken om specifieke taken binnen je vakgebied op te lossen.</p>
+                    </div>
+                    <img 
+                        src={`${import.meta.env.BASE_URL}Tools.png`} 
+                        alt="AI Tools" 
+                        style={{ flex: '0 0 auto', width: '100%', maxWidth: '33%', minWidth: '250px', height: 'auto', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }} 
+                    />
                 </div>
 
                 <div style={{ marginBottom: '20px' }}>
@@ -51,13 +58,6 @@ const Leeruitkomsten = () => {
                     <p>Je kunt een eigen leerroute vaststellen en uitvoeren waarbij je zelfstandig je leervragen stelt, relevante bronnen en tools selecteert, je eigen voortgang monitort en kritisch reflecteert op je leerproces en persoonlijke ontwikkeling in het AI-landschap.</p>
                 </div>
                 <div style={{ clear: 'both' }}></div>
-                <div style={{ marginTop: '40px', textAlign: 'center' }}>
-                    <img 
-                        src={`${import.meta.env.BASE_URL}Tools.png`} 
-                        alt="AI Tools" 
-                        style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }} 
-                    />
-                </div>
             </div>
         </div>
     );
