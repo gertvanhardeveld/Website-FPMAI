@@ -51,6 +51,13 @@ const Leeruitkomsten = () => {
                     <p>Je kunt een eigen leerroute vaststellen en uitvoeren waarbij je zelfstandig je leervragen stelt, relevante bronnen en tools selecteert, je eigen voortgang monitort en kritisch reflecteert op je leerproces en persoonlijke ontwikkeling in het AI-landschap.</p>
                 </div>
                 <div style={{ clear: 'both' }}></div>
+                <div style={{ marginTop: '40px', textAlign: 'center' }}>
+                    <img 
+                        src={`${import.meta.env.BASE_URL}Tools.png`} 
+                        alt="AI Tools" 
+                        style={{ maxWidth: '100%', height: 'auto', borderRadius: '8px', boxShadow: '0 4px 12px rgba(0,0,0,0.1)' }} 
+                    />
+                </div>
             </div>
         </div>
     );
