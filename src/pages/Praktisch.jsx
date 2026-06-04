@@ -38,16 +38,16 @@ const Praktisch = () => {
                 <div style={{ marginBottom: '20px' }}>
                     <h3 style={{ fontSize: '1.1rem', marginBottom: '10px' }}>Locatie</h3>
                     <p>
-                        Op maandag heb je altijd les op de Heidelberglaan 15 en op woensdag zijn we te gast bij Dotslash op de Europalaan 93 in Utrecht.
+                        Op maandag of donderdag heb je altijd een dagdeel les op de Heidelberglaan 15 en op woensdag of donderdag zijn we een dagdeel te gast bij Dotslash op de Europalaan 93 in Utrecht.
                     </p>
                 </div>
 
                 <div>
                     <h3 style={{ fontSize: '1.1rem', marginBottom: '10px' }}>Belangrijke data</h3>
                     <ul style={{ listStyleType: 'none', padding: 0 }}>
-                        <li style={{ padding: '5px 0' }}><strong>Start minor:</strong> 2 februari 2026</li>
-                        <li style={{ padding: '5px 0' }}><strong>Voorjaarsvakantie:</strong> 16 februari t/m 24 februari 202</li>
-                        <li style={{ padding: '5px 0' }}><strong>Meivakantie:</strong> 27 april t/m 1 mei 2026</li>
+                        <li style={{ padding: '5px 0' }}><strong>Start minor:</strong> 31 september 2026</li>
+                        <li style={{ padding: '5px 0' }}><strong>Herstvakantie:</strong> 18 oktober t/m 26 oktober 2026</li>
+                        <li style={{ padding: '5px 0' }}><strong>Kerstvakantie:</strong> 20 december t/m 4 januari 2027</li>
                     </ul>
                 </div>
                 <div style={{ clear: 'both' }}></div>
