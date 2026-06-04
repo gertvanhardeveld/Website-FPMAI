@@ -25,20 +25,19 @@ const Praktisch = () => {
                     }}
                 />
                 <p style={{ marginBottom: '20px' }}>
-                    De minor is fulltime. Op maandag en woensdag zijn er les ingeroosterd.
+                    De minor is voor voltijds studenten. 
                 </p>
 
                 <div style={{ marginBottom: '20px' }}>
                     <h3 style={{ fontSize: '1.1rem', marginBottom: '10px' }}>Lesdagen</h3>
                     <p>
-                        De lesdagen zijn maandag en woensdag. Op maandag middag zijn er altijd de inspiratie-sessies en gastsprekers ingeroosterd en kom je met alle studenten bij elkaar. Op de woensdag zijn de leerteamsessies en werk je in sprints. Afhankelijk van de indeling is je leerteam op de woensdagochtend of de woensdagmiddag.
-                    </p>
+                        Je wordt of op maandag en woensdag of dinsdag en donderdag een dagdeel ingeroosterd. Op maandag of dinsdag zijn er altijd de inspiratie-sessies en gastsprekers ingeroosterd en kom je met alle studenten bij elkaar. Op de woensdag of donderdag zijn de leerteamsessies en werk je in sprints. 
                 </div>
 
                 <div style={{ marginBottom: '20px' }}>
                     <h3 style={{ fontSize: '1.1rem', marginBottom: '10px' }}>Locatie</h3>
                     <p>
-                        Op maandag of donderdag heb je altijd een dagdeel les op de Heidelberglaan 15 en op woensdag of donderdag zijn we een dagdeel te gast bij Dotslash op de Europalaan 93 in Utrecht.
+                        De inspiratie-sessies en gastsprekers worden gehouden op de Heidelberglaan 15 en de leerteamsessies bij Dotslash op de Europalaan 93 in Utrecht.
                     </p>
                 </div>
 
