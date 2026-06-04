@@ -32,6 +32,7 @@ const Praktisch = () => {
                     <h3 style={{ fontSize: '1.1rem', marginBottom: '10px' }}>Lesdagen</h3>
                     <p>
                         Je wordt of op maandag en woensdag of dinsdag en donderdag een dagdeel ingeroosterd. Op maandag of dinsdag zijn er altijd de inspiratie-sessies en gastsprekers ingeroosterd en kom je met alle studenten bij elkaar. Op de woensdag of donderdag zijn de leerteamsessies en werk je in sprints. 
+                    </p>
                 </div>
 
                 <div style={{ marginBottom: '20px' }}>
