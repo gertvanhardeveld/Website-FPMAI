@@ -12,9 +12,23 @@ const Beoordeling = () => {
             <h1 className="section-title">Beoordeling</h1>
 
             <div style={{ marginBottom: '40px' }}>
-                <h2 style={{ marginBottom: '20px', color: 'var(--hu-blue)' }}>Opdrachtgevers</h2>
+                <h2 style={{ marginBottom: '20px', color: 'var(--hu-blue)' }}>Leeruitkomsten</h2>
+
+                <img
+                    src={`${import.meta.env.BASE_URL}leeruitkomsten_visual.jpg`}
+                    alt="Leeruitkomsten Visualisatie"
+                    style={{
+                        float: 'right',
+                        width: '33%',
+                        marginLeft: '30px',
+                        marginBottom: '20px',
+                        borderRadius: '8px',
+                        boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
+                    }}
+                />
+
                 <p style={{ marginBottom: '30px' }}>
-                    De minor kent 5 leeruitkomsten. Leeruitkomst 5 moet je altijd iedere sprint laten zien en de andere vier leeruitkomsten zijn afhankelijk van wat je die sprint hebt gepland om uit te voeren.
+                    Tijdens werken we met onderstaande 5 leeruitkomsten. Leeruitkomst 5 moet je altijd iedere sprint laten zien en de andere vier leeruitkomsten zijn afhankelijk van wat je die sprint hebt gepland om uit te voeren.
                 </p>
 
                 <div style={{ marginBottom: '20px' }}>
@@ -41,6 +55,8 @@ const Beoordeling = () => {
                     <h3 style={{ color: 'var(--hu-blue)', marginBottom: '10px' }}>LU 5: Zelfstandig en zelfsturend werken</h3>
                     <p>Je kunt een eigen leerroute vaststellen en uitvoeren waarbij je zelfstandig je leervragen stelt, relevante bronnen en tools selecteert, je eigen voortgang monitort en kritisch reflecteert op je leerproces en persoonlijke ontwikkeling in het AI-landschap.</p>
                 </div>
+
+                <div style={{ clear: 'both' }}></div>
             </div>
 
             {/* Eindassessment Section */}
