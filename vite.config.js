@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     react(),
     Sitemap({
-      hostname: 'https://gertvanhardeveld.github.io/Website-FPMAI/',
+      hostname: 'https://minorai.nl/',
       dynamicRoutes: [
         '/programma',
         '/team',
@@ -20,5 +20,5 @@ export default defineConfig({
       ]
     })
   ],
-  base: process.env.GITHUB_PAGES === 'true' ? '/Website-FPMAI/' : '/',
+  base: '/',
 })
