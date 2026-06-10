@@ -10,13 +10,16 @@ const VoorWie = () => {
             </Helmet>
             <h1 className="section-title">Voor wie</h1>
             <img
+                className="voor-wie-visual"
                 src={`${import.meta.env.BASE_URL}voor-wie-visual.jpg`}
                 alt="Studenten werken samen aan AI project"
                 style={{
                     float: 'right',
+                    width: '33%',
                     marginLeft: '30px',
                     marginBottom: '20px',
                     maxWidth: '400px',
+                    height: 'auto',
                     borderRadius: '8px',
                     boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
                 }}
@@ -35,6 +38,20 @@ const VoorWie = () => {
             <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#333' }}>
                 Ben je van plan na je bachelor nog een master in AI te gaan volgen dan is deze minor een perfecte voorbereiding daarop. Veel van de AI-masters vereisen al technische kennis op het terrein van programmeren en/of wiskundige kennis over data. Bij deze minor ga je aan leervragen werken die je voorbereiden voor de twee HU AI-masters: HCAI en MDDB. Beide masters kennen een ingangstoets en door tijdens deze minor de toets al te maken zorg je ervoor dat je voldoet aan de ingangseisen van deze AI-masters. Onze eigen ICT opleiding verzorgt de master Human Centered AI (HCAI) en zo kom je ook al je toekomstig vakdocenten en coaches tegen.
             </p>
+
+            <style>{`
+                @media (max-width: 768px) {
+                    .voor-wie-visual {
+                        float: none !important;
+                        width: 100% !important;
+                        max-width: 100% !important;
+                        margin-left: 0 !important;
+                        margin-right: 0 !important;
+                        margin-bottom: 20px !important;
+                        display: block;
+                    }
+                }
+            `}</style>
         </div >
     );
 };
