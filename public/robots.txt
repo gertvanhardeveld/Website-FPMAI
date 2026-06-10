@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gertvanhardeveld.github.io/Website-FPMAI/sitemap.xml
+Sitemap: https://minorai.nl/sitemap.xml
