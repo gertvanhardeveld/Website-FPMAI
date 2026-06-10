@@ -30,6 +30,17 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="home-student-quote-wrapper">
+        <div className="container home-student-quote">
+          <p className="home-student-quote-text">
+            "Dit is echt het beste onderwijs dat ik ooit heb gehad en ik zou deze minor aan iedereen aanbevelen"
+          </p>
+          <p className="home-student-quote-author">
+            Jorick Schoeman, Commerciële economie Han (2026)
+          </p>
+        </div>
+      </div>
+
       <div style={{ backgroundColor: 'var(--hu-red)', color: 'white', padding: '60px 0', marginBottom: '40px' }}>
         <div className="container">
 
