@@ -28,7 +28,7 @@ const Beoordeling = () => {
                 />
 
                 <p style={{ marginBottom: '30px' }}>
-                    Tijdens werken we met onderstaande 5 leeruitkomsten. Leeruitkomst 5 moet je altijd iedere sprint laten zien en de andere vier leeruitkomsten zijn afhankelijk van wat je die sprint hebt gepland om uit te voeren.
+                    Tijdens de minor werken we met onderstaande 5 leeruitkomsten. Leeruitkomst 5 moet je altijd iedere sprint laten zien en de andere vier leeruitkomsten zijn afhankelijk van wat je die sprint hebt gepland om uit te voeren.
                 </p>
 
                 <div style={{ marginBottom: '20px' }}>
@@ -77,7 +77,7 @@ const Beoordeling = () => {
                 />
 
                 <p style={{ marginBottom: '15px' }}>
-                    Aan het einde van het semester maak je een laatste zelfevaluatie. Tijdens deze laatste zelfassessment geef je per leeruitkomst aan wat is onderzocht, gemaakt en geleerd. Deze zelfevaluatie lever je in via Canvas en wordt beoordeeld door de coaches. Voor de eindbeoordeling krijg je of een Op Niveau of Boven Niveau. Onderstaand zie je de voorwaarden voor het eindassessment en het niveau van de beoordeling.
+                    Zoals onder programma al toegelicht werk je in 8 sprints van 2 weken aan de leeruitkomsten. Iedere Show & Grow toon je bovengenoemde leeruitkomsten aan. Aan het einde van het semester maak je een laatste zelfevaluatie. Tijdens deze laatste zelfassessment geef je per leeruitkomst aan wat is onderzocht, gemaakt en geleerd. Deze zelfevaluatie lever je in via Canvas en wordt beoordeeld door de coaches. Voor de eindbeoordeling krijg je of een Op Niveau of Boven Niveau. Onderstaand zie je de voorwaarden voor het eindassessment en het niveau van de beoordeling.
                 </p>
 
                 <h3 style={{ fontSize: '1.1rem', marginBottom: '10px', color: 'var(--hu-red)' }}>Voorwaarden voor een op niveau beoordeling</h3>
