@@ -41,15 +41,20 @@ const Home = () => {
         </div>
       </div>
 
-      <div style={{ backgroundColor: 'var(--hu-red)', color: 'white', padding: '60px 0', marginBottom: '40px' }}>
+      <div style={{ padding: '30px 0', marginBottom: '40px' }}>
         <div className="container">
 
           <p style={{ fontSize: '1.1rem', lineHeight: '1.6', marginBottom: '20px' }}>
             Tijdens de minor: Futureproof met AI! duiken we diep in de wereld van AI, met inspirerende sessies en lessen verzorgd door experts en gastsprekers uit het vakgebied. Zij presenteren boeiende cases uit diverse bedrijven en sectoren, waardoor je direct wordt geïnspireerd en concrete ideeën opdoet over de impact van AI in jouw specifieke sector en toekomstige beroep. Je krijgt de vrijheid om zelf te bepalen in welke onderwerpen, technieken en tools je je wilt verdiepen. Het is niet alleen theorie: je gaat ook daadwerkelijk AI proof-of-concepts bouwen, met de mogelijkheid deze echt op te leveren voor eigen opdrachtgevers. Hierbij leer je essentiële technieken en tools zoals: effectief prompten , bouwen van AI-agents, apps ontwikkelen met Vibe-coding, workflows bouwen (N8N, Make.com, Power Automate) en geavanceerde data-analyse met Machine Learning en Neurale Netwerken.
           </p>
-          <h2 style={{ fontSize: '2rem', textAlign: 'center', marginTop: '40px', fontStyle: 'italic', fontWeight: 'bold', color: 'white' }}>
-            “AI neemt jouw werk niet over, maar degene die AI goed weet te gebruiken wel!”
-          </h2>
+          <div className="home-student-quote home-bottom-quote">
+            <p className="home-student-quote-text">
+              “AI neemt jouw werk niet over, maar degene die AI goed weet te gebruiken wel!”
+            </p>
+            <p className="home-student-quote-author">
+              Auteur onbekend
+            </p>
+          </div>
         </div>
       </div>
     </div>
