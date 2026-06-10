@@ -13,6 +13,7 @@ const Praktisch = () => {
             {/* Rooster Section - Single Column with Floating Image */}
             <section style={{ marginBottom: '60px' }}>
                 <img
+                    className="praktisch-visual"
                     src={`${import.meta.env.BASE_URL}rooster_visual_new.jpg`}
                     alt="Rooster Visualisatie"
                     style={{
@@ -68,6 +69,20 @@ const Praktisch = () => {
                     Houd er rekening mee dat je ongeveer € 100,-  nodig hebt voor het afsluiten van abonnementen op diverse AI gerelateerde tools, zoals tools voor vibe-coding, beschikbaar stellen van LLM’s voor chatbots en workflow automatisering.
                 </p>
             </section>
+
+            <style>{`
+                @media (max-width: 768px) {
+                    .praktisch-visual {
+                        float: none !important;
+                        width: 100% !important;
+                        max-width: 100% !important;
+                        margin-left: 0 !important;
+                        margin-right: 0 !important;
+                        margin-bottom: 20px !important;
+                        display: block;
+                    }
+                }
+            `}</style>
         </div>
     );
 };

@@ -13,6 +13,7 @@ const Opdrachtgevers = () => {
 
             <div style={{ marginBottom: '40px' }}>
                 <img
+                    className="opdrachtgevers-visual"
                     src={`${import.meta.env.BASE_URL}Dotslash.jpg`}
                     alt="Dotslash"
                     style={{
@@ -35,6 +36,20 @@ const Opdrachtgevers = () => {
 
                 <div style={{ clear: 'both' }}></div>
             </div>
+
+            <style>{`
+                @media (max-width: 768px) {
+                    .opdrachtgevers-visual {
+                        float: none !important;
+                        width: 100% !important;
+                        max-width: 100% !important;
+                        margin-left: 0 !important;
+                        margin-right: 0 !important;
+                        margin-bottom: 20px !important;
+                        display: block;
+                    }
+                }
+            `}</style>
         </div>
     );
 };
