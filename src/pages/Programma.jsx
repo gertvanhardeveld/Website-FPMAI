@@ -99,7 +99,7 @@ const Programma = () => {
 
             <div style={{ marginBottom: '40px' }}>
                 <p>
-                    In het figuur hiernaast zie je een compleet uitgewerkte Research Story in Portflow. Onderaan zie je ook aan welke leeruitkomsten de Research Story is gekoppeld. Aan het einde van iedere sprint maak je een zelfevaluatie en is er het Show & Tell moment.
+                    In het figuur hiernaast zie je een compleet uitgewerkte Research Story in Portflow. Onderaan zie je ook aan welke leeruitkomsten de Research Story is gekoppeld. Aan het einde van iedere sprint maak je een zelfevaluatie en is er het Show & Grow moment.
                 </p>
             </div>
 
@@ -111,9 +111,9 @@ const Programma = () => {
             </section>
 
             <section style={{ marginBottom: '30px' }}>
-                <h2 style={{ color: 'var(--hu-blue)', marginBottom: '15px' }}>Show & Tell</h2>
+                <h2 style={{ color: 'var(--hu-blue)', marginBottom: '15px' }}>Show & Grow</h2>
                 <p>
-                    Tijdens het Show & Tell moment laat je zien wat je hebt gemaakt en vertel je hoe je dit hebt gedaan en wat je ervan hebt geleerd. Dit doe je altijd samen met je coach en een aantal medestudenten.
+                    Tijdens het Show & Grow moment laat je zien wat je hebt gemaakt en vertel je hoe je dit hebt gedaan en wat je ervan hebt geleerd. Dit doe je altijd samen met je coach en een aantal medestudenten.
                     Van de coach en je medestudenten krijg je feedback. Deze feedback verwerkt een andere student, zodat je kunt concentreren op de feedback die je krijgt.
                 </p>
             </section>
@@ -123,7 +123,7 @@ const Programma = () => {
             <section style={{ marginBottom: '30px' }}>
                 <h2 style={{ color: 'var(--hu-blue)', marginBottom: '15px' }}>Beoordeling sprint</h2>
                 <p>
-                    Tijdens het Show & Tell moment beoordeelt de coach direct je zelfevaluatie aan de hand van wat je laat zien en vertelt. De coach geeft je dan ook direct een beoordeling van de leeruitkomsten die je hebt laten zien in deze sprint (voldoende of onvoldoende). Op basis van alle feedback die je hebt gekregen maak je vervolgens een eigen reflectie in wat goed ging en je de volgende keer beter wilt doen. Dit is de laatste activiteit van je sprint.
+                    Tijdens het Show & Grow moment beoordeelt de coach direct je zelfevaluatie aan de hand van wat je laat zien en vertelt. De coach geeft je dan ook direct een beoordeling van de leeruitkomsten die je hebt laten zien in deze sprint (voldoende of onvoldoende). Op basis van alle feedback die je hebt gekregen maak je vervolgens een eigen reflectie in wat goed ging en je de volgende keer beter wilt doen. Dit is de laatste activiteit van je sprint.
                 </p>
             </section>
         </div>

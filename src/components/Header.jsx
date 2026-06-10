@@ -2,6 +2,21 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { searchIndex } from '../utils/searchIndex';
 
+const SearchIcon = ({ size = 20, color = 'currentColor' }) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        aria-hidden="true"
+        focusable="false"
+    >
+        <circle cx="11" cy="11" r="7" stroke={color} strokeWidth="2" />
+        <line x1="16.5" y1="16.5" x2="21" y2="21" stroke={color} strokeWidth="2" strokeLinecap="round" />
+    </svg>
+);
+
 const Header = () => {
     const [searchQuery, setSearchQuery] = useState('');
     const [searchResults, setSearchResults] = useState([]);
@@ -76,7 +91,7 @@ const Header = () => {
                         <li><NavLink to="/voor-wie" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>Voor wie</NavLink></li>
                         <li><NavLink to="/programma" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>Programma</NavLink></li>
                         <li><NavLink to="/beoordeling" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>Beoordeling</NavLink></li>
-                        <li><NavLink to="/leeruitkomsten" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>Leeruitkomsten</NavLink></li>
+                        <li><NavLink to="/opdrachtgevers" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>Opdrachtgevers</NavLink></li>
                         <li><NavLink to="/praktisch" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>Praktisch</NavLink></li>
                         <li><NavLink to="/showcases" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>Showcases</NavLink></li>
                         <li><NavLink to="/team" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>Team</NavLink></li>
@@ -90,6 +105,7 @@ const Header = () => {
                                 style={{
                                     background: 'none',
                                     border: 'none',
+                                    color: 'var(--hu-grey)',
                                     cursor: 'pointer',
                                     fontSize: '20px',
                                     padding: '10px',
@@ -103,11 +119,13 @@ const Header = () => {
                                 onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
                                 aria-label="Zoeken"
                             >
-                                🔍
+                                <SearchIcon size={20} color="var(--hu-grey)" />
                             </button>
                         ) : (
                             <div style={{ display: 'flex', alignItems: 'center', backgroundColor: '#f5f5f5', borderRadius: '20px', padding: '5px 15px' }}>
-                                <span style={{ fontSize: '16px', marginRight: '5px' }}>🔍</span>
+                                <span style={{ display: 'inline-flex', marginRight: '5px' }}>
+                                    <SearchIcon size={16} color="var(--hu-grey)" />
+                                </span>
                                 <input
                                     autoFocus
                                     type="text"

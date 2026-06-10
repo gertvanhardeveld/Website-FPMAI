@@ -2,7 +2,7 @@ export const searchIndex = [
     {
         title: "Programma",
         path: "/programma",
-        content: "Onderzoeken, maken en leren in sprints. Research Stories, User Stories, Learning Stories. Sprint proces, zelfevaluatie, Show & Tell, beoordeling sprint. Minor opbouw, periodes van twee weken."
+        content: "Onderzoeken, maken en leren in sprints. Research Stories, User Stories, Learning Stories. Sprint proces, zelfevaluatie, Show & Grow, beoordeling sprint. Minor opbouw, periodes van twee weken."
     },
     {
         title: "Beoordeling",
@@ -10,8 +10,8 @@ export const searchIndex = [
         content: "Eindassessment, voorwaarden voor een op niveau beoordeling, voorwaarden voor boven niveau beoordeling. Herkansing. Portfolio, assessmentgesprek, feedback."
     },
     {
-        title: "Leeruitkomsten",
-        path: "/leeruitkomsten",
+        title: "Opdrachtgevers",
+        path: "/opdrachtgevers",
         content: "AI Impact, AI Technology, AI Design, AI Ethics, AI Professional. Leerdoelen, competenties, vaardigheden."
     },
     {
