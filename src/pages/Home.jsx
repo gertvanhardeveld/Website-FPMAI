@@ -36,7 +36,7 @@ const Home = () => {
             "Dit is echt het beste onderwijs dat ik ooit heb gehad en ik zou deze minor aan iedereen aanbevelen"
           </p>
           <p className="home-student-quote-author">
-            Jorick Schoeman, Commerciële economie Han (2026)
+            Jorick Schoeman, Commerciële economie HAN (2026)
           </p>
         </div>
       </div>
