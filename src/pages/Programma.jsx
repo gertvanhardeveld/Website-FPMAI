@@ -12,13 +12,16 @@ const Programma = () => {
             </Helmet>
             <h1 className="section-title">Programma</h1>
             <img
+                className="programma-intro-image"
                 src={`${import.meta.env.BASE_URL}programma_intro.jpg`}
                 alt="Student werkt aan AI chatbot"
                 style={{
                     float: 'right',
+                    width: '33%',
                     marginLeft: '30px',
                     marginBottom: '20px',
                     maxWidth: '400px',
+                    height: 'auto',
                     borderRadius: '8px',
                     boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
                 }}
@@ -126,6 +129,20 @@ const Programma = () => {
                     Tijdens het Show & Grow moment beoordeelt de coach direct je zelfevaluatie aan de hand van wat je laat zien en vertelt. De coach geeft je dan ook direct een beoordeling van de leeruitkomsten die je hebt laten zien in deze sprint (voldoende of onvoldoende). Op basis van alle feedback die je hebt gekregen maak je vervolgens een eigen reflectie in wat goed ging en je de volgende keer beter wilt doen. Dit is de laatste activiteit van je sprint.
                 </p>
             </section>
+
+            <style>{`
+                @media (max-width: 768px) {
+                    .programma-intro-image {
+                        float: none !important;
+                        width: 100% !important;
+                        max-width: 100% !important;
+                        margin-left: 0 !important;
+                        margin-right: 0 !important;
+                        margin-bottom: 20px !important;
+                        display: block;
+                    }
+                }
+            `}</style>
         </div>
     );
 };
