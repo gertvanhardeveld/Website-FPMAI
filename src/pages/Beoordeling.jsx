@@ -32,28 +32,28 @@ const Beoordeling = () => {
                 </p>
 
                 <div style={{ marginBottom: '20px' }}>
-                    <h3 style={{ color: 'var(--hu-blue)', marginBottom: '10px' }}>LU 1: AI-impact op de toekomstige beroepspraktijk analyseren en evalueren</h3>
-                    <p>Je kunt zelfstandig onderzoek door naar de impact van AI in jouw toekomstig beroep en vaststellen welke nieuwe AI en digitale vaardigheden daarvoor nodig zijn</p>
+                    <h3 style={{ color: 'var(--hu-blue)', marginBottom: '10px' }}>LU 1: AI-impact op beroepsrol analyseren</h3>
+                    <p>Je kunt voor een zelfgekozen beroepsrol binnen je werkveld analyseren welke taken door AI veranderen, dit onderbouwen met eigen experimenten en gesprekken met professionals, en bepalen welke AI-vaardigheden je daarom ontwikkelt.</p>
                 </div>
 
                 <div style={{ marginBottom: '20px' }}>
-                    <h3 style={{ color: 'var(--hu-blue)', marginBottom: '10px' }}>LU 2: Praktijkgerichte AI oplossing ontwerpen, realiseren en presenteren</h3>
-                    <p>Je kunt zelfstandig een AI oplossing ontwerpen, realiseren en presenteren die een specifieke beroepspraktijk radicaal transformeert (verandert)</p>
+                    <h3 style={{ color: 'var(--hu-blue)', marginBottom: '10px' }}>LU 2: Praktijkgerichte AI-oplossingen ontwerpen, realiseren en valideren</h3>
+                    <p>Je kunt een AI-oplossing ontwerpen en realiseren die een concreet werkproces in je beroepspraktijk aantoonbaar verbetert. Je valideert de oplossing door deze te testen met gebruikers of een opdrachtgever en onderbouwt de waarde ervan in termen van effectiviteit, efficiëntie en kosten.</p>
                 </div>
 
                 <div style={{ marginBottom: '20px' }}>
-                    <h3 style={{ color: 'var(--hu-blue)', marginBottom: '10px' }}>LU 3: Ethiek en verantwoordelijk AI-gebruik beoordelen</h3>
-                    <p>Je kunt zelfstandig de ethische vraagstukken en uitdagingen van AI in je vakgebied identificeren en aanbevelingen formuleren voor verantwoord AI-gebruik, rekening houdend met privacy, bias en transparantie.</p>
+                    <h3 style={{ color: 'var(--hu-blue)', marginBottom: '10px' }}>LU 3: Verantwoord AI-gebruik toetsen aan ethiek en regelgeving</h3>
+                    <p>Je kunt de ethische vraagstukken van AI in je vakgebied identificeren en toetsen of een AI-toepassing voldoet aan relevante wet- en regelgeving, zoals de Europese AI-verordening en de AVG. Op basis daarvan formuleer je aanbevelingen voor verantwoord AI-gebruik, rekening houdend met privacy, bias en transparantie.</p>
                 </div>
 
                 <div style={{ marginBottom: '20px' }}>
-                    <h3 style={{ color: 'var(--hu-blue)', marginBottom: '10px' }}>LU 4: AI Tools en technieken gebruiken</h3>
-                    <p>Je kunt zelfstandig verschillende AI-tools en platforms toepassen (zoals AI machine learning technieken, chatbots, agents, prompts, etc)) en deze gebruiken om specifieke taken binnen je vakgebied op te lossen.</p>
+                    <h3 style={{ color: 'var(--hu-blue)', marginBottom: '10px' }}>LU 4: AI Tools en technieken toepassen</h3>
+                    <p>Je kunt verschillende AI-tools en technieken, zoals prompting, agents, workflowautomatisering en machine learning, doelgericht toepassen om taken binnen je vakgebied uit te voeren. Je kiest onderbouwd welke tool of techniek bij een taak past en kunt uitleggen hoe deze werkt en waar de beperkingen liggen.</p>
                 </div>
 
                 <div style={{ marginBottom: '20px' }}>
-                    <h3 style={{ color: 'var(--hu-blue)', marginBottom: '10px' }}>LU 5: Zelfstandig en zelfsturend werken</h3>
-                    <p>Je kunt een eigen leerroute vaststellen en uitvoeren waarbij je zelfstandig je leervragen stelt, relevante bronnen en tools selecteert, je eigen voortgang monitort en kritisch reflecteert op je leerproces en persoonlijke ontwikkeling in het AI-landschap.</p>
+                    <h3 style={{ color: 'var(--hu-blue)', marginBottom: '10px' }}>LU 5: Regie voeren over je eigen leerproces</h3>
+                    <p>Je kunt zelfstandig user stories, learning stories en research stories opstellen, plannen en uitvoeren, met passende acceptatie- en kwaliteitscriteria, en de resultaten tijdens Show &amp; Grow aantonen. Je zet AI bewust in als ondersteuning van je leren en maakt daarbij onderbouwde keuzes over wat je aan AI overlaat en wat je zelf doet. Op basis van feedback en reflectie stuur je je aanpak en ontwikkeling aantoonbaar bij.</p>
                 </div>
 
                 <div style={{ clear: 'both' }}></div>
@@ -96,23 +96,23 @@ const Beoordeling = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td style={{ padding: '8px', border: '1px solid black' }}>LU1: AI Impact</td>
+                            <td style={{ padding: '8px', border: '1px solid black' }}>LU1: AI-impact op beroepsrol analyseren</td>
                             <td style={{ padding: '8px', border: '1px solid black', textAlign: 'center' }}>2</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '8px', border: '1px solid black' }}>LU2: AI Praktijkoplossing</td>
+                            <td style={{ padding: '8px', border: '1px solid black' }}>LU2: Praktijkgerichte AI-oplossingen ontwerpen, realiseren en valideren</td>
                             <td style={{ padding: '8px', border: '1px solid black', textAlign: 'center' }}>4</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '8px', border: '1px solid black' }}>LU3: AI Ethiek en regelgeving</td>
+                            <td style={{ padding: '8px', border: '1px solid black' }}>LU3: Verantwoord AI-gebruik toetsen aan ethiek en regelgeving</td>
                             <td style={{ padding: '8px', border: '1px solid black', textAlign: 'center' }}>2</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '8px', border: '1px solid black' }}>LU4: AI Tools en technieken</td>
+                            <td style={{ padding: '8px', border: '1px solid black' }}>LU4: AI Tools en technieken toepassen</td>
                             <td style={{ padding: '8px', border: '1px solid black', textAlign: 'center' }}>4</td>
                         </tr>
                         <tr>
-                            <td style={{ padding: '8px', border: '1px solid black' }}>LU5: Zelfstandig en zelfsturend werken</td>
+                            <td style={{ padding: '8px', border: '1px solid black' }}>LU5: Regie voeren over je eigen leerproces</td>
                             <td style={{ padding: '8px', border: '1px solid black', textAlign: 'center' }}>6</td>
                         </tr>
                     </tbody>

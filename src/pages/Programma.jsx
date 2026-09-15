@@ -27,7 +27,7 @@ const Programma = () => {
                 }}
             />
             <p style={{ marginBottom: '20px' }}>
-                Tijdens deze minor ga je aan de slag met een eigen AI-vraagstuk. In de eerste 10 weken onderzoek je hoe AI jouw toekomstige beroep beïnvloedt. Hoe verandert het werk en welke slimme toepassingen zijn daarvoor nodig? Tijdens dit onderzoek ontdek en gebruik je verschillende AI-tools, waardoor je digitale vaardigheden een flinke boost krijgen. In de volgende 10 weken bedenk en ontwikkel je een eigen AI-oplossing. Je onderzoekt wat er nodig is om deze succesvol in de praktijk toe te passen. Misschien maak je zelfs een eerste toepassing die jouw vakgebied écht verandert. Er zijn al genoeg inspirerende voorbeelden, zoals:
+                Tijdens deze minor ga je aan de slag met een eigen AI-vraagstuk. In de eerste weken onderzoek je hoe AI jouw toekomstige beroep beïnvloedt. Hoe verandert het werk en welke slimme toepassingen zijn daarvoor nodig? Tijdens dit onderzoek ontdek en gebruik je verschillende AI-tools, waardoor je digitale vaardigheden al een flinke boost krijgen. In de volgende weken bedenk en ontwikkel je een eigen AI-oplossingen. Je onderzoekt wat er nodig is om deze succesvol in de praktijk toe te passen en bouwt en test de oplossingen. Misschien maak je zelfs een eerste toepassing die jouw vakgebied écht verandert. Er zijn al genoeg inspirerende voorbeelden, zoals:
             </p>
             <ul style={{ listStyleType: 'disc', paddingLeft: '20px', marginBottom: '20px', lineHeight: '1.6' }}>
                 <li>Adaptieve leerplatformen in het onderwijs</li>
