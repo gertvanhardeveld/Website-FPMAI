@@ -46,9 +46,9 @@ const Praktisch = () => {
                 <div>
                     <h3 style={{ fontSize: '1.1rem', marginBottom: '10px' }}>Belangrijke data</h3>
                     <ul style={{ listStyleType: 'none', padding: 0 }}>
-                        <li style={{ padding: '5px 0' }}><strong>Start minor:</strong> 31 september 2026</li>
-                        <li style={{ padding: '5px 0' }}><strong>Herstvakantie:</strong> 18 oktober t/m 26 oktober 2026</li>
-                        <li style={{ padding: '5px 0' }}><strong>Kerstvakantie:</strong> 20 december t/m 4 januari 2027</li>
+                        <li style={{ padding: '5px 0' }}><strong>Start minor:</strong> 1 februari 2027</li>
+                        <li style={{ padding: '5px 0' }}><strong>Voorjaarsvakantie:</strong> 22 februari t/m 26 februari 2027</li>
+                        <li style={{ padding: '5px 0' }}><strong>Meivakantie:</strong> 26 april t/m 4 30 april 2027</li>
                     </ul>
                 </div>
                 <div style={{ clear: 'both' }}></div>
