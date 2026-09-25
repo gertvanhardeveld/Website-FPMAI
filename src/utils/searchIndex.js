@@ -7,7 +7,7 @@ export const searchIndex = [
     {
         title: "Beoordeling",
         path: "/beoordeling",
-        content: "Eindassessment, voorwaarden voor een op niveau beoordeling, voorwaarden voor boven niveau beoordeling. Herkansing. Portfolio, assessmentgesprek, feedback."
+        content: "Eindassessment, voorwaarden voor een op niveau beoordeling, voorwaarden voor boven niveau beoordeling. Herkansing. Portfolio, assessmentgesprek, feedback. AI beleid, verantwoord AI-gebruik, alles mag met AI, jij bent verantwoordelijk, AI-tools vermelden bij bewijzen."
     },
     {
         title: "Opdrachtgevers",
