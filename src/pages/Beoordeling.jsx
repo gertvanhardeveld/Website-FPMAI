@@ -132,6 +132,24 @@ const Beoordeling = () => {
                 </p>
                 <div style={{ clear: 'both' }}></div>
             </div>
+
+            {/* AI Beleid Section */}
+            <div style={{ marginBottom: '40px' }}>
+                <h1 style={{ marginBottom: '20px', color: 'var(--hu-blue)' }}>AI Beleid</h1>
+
+                <h3 style={{ fontSize: '1.1rem', marginBottom: '10px', color: 'var(--hu-blue)' }}>Alles mag met AI, zolang je het kunt verantwoorden.</h3>
+                <p style={{ marginBottom: '20px' }}>
+                    In deze minor mag je AI gebruiken voor alle activiteiten en taken. Sterker nog, we moedigen je aan om zoveel mogelijk met AI te werken en te onderzoeken hoe je AI in jouw toekomstige beroep kunt inzetten. Daarbij houd je je aan wet- en regelgeving. Je deelt geen persoonsgegevens van anderen met AI-tools, en ook geen vertrouwelijke of bedrijfsgevoelige informatie van je opdrachtgever. Wees je daarnaast bewust van de onbedoelde effecten van AI-gebruik, zoals de impact op duurzaamheid, de afhankelijkheid van grote techbedrijven en je eigen afhankelijkheid van AI. Hoe je daarin je afweging maakt, is onderdeel van je ontwikkeling op het gebied van ethiek en verantwoord AI-gebruik (leeruitkomst 3).
+                </p>
+
+                <h3 style={{ fontSize: '1.1rem', marginBottom: '10px', color: 'var(--hu-blue)' }}>Jij bent verantwoordelijk</h3>
+                <p style={{ marginBottom: '15px' }}>
+                    Je mag producten en bewijzen met AI laten maken, maar jij blijft verantwoordelijk voor alles wat je oplevert. Dat betekent dat je het resultaat hebt gecontroleerd, dat je het begrijpt en dat je in Show &amp; Grow kunt uitleggen hoe het tot stand is gekomen en waarom je bepaalde keuzes hebt gemaakt. Vermeld bij je bewijzen kort welke AI-tools je hebt gebruikt en waarvoor.
+                </p>
+                <p>
+                    Heb je geen programmeerachtergrond, dan hoef je de code die AI voor je schrijft niet regel voor regel te kunnen uitleggen. Je bent wel verantwoordelijk voor het ontwerp en de functionaliteit: je laat zien dat je toepassing werkt, dat je hem getest hebt en dat hij veilig omgaat met gegevens.
+                </p>
+            </div>
         </div>
     );
 };
